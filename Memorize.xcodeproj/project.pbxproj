@@ -17,6 +17,9 @@
 		BEDBD7A32AADCB790069AE00 /* MemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBD7A22AADCB790069AE00 /* MemorizeGame.swift */; };
 		BEDBD7A52AADD5E60069AE00 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBD7A42AADD5E60069AE00 /* EmojiMemoryGame.swift */; };
 		BEFE5B722AAE60650099EEC5 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE5B712AAE60650099EEC5 /* AspectVGrid.swift */; };
+		BEFE5B742AAEC4F00099EEC5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE5B732AAEC4F00099EEC5 /* CardView.swift */; };
+		BEFE5B762AAF1EE90099EEC5 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE5B752AAF1EE90099EEC5 /* Pie.swift */; };
+		BEFE5B782AAF25CC0099EEC5 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE5B772AAF25CC0099EEC5 /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		BEDBD7A22AADCB790069AE00 /* MemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGame.swift; sourceTree = "<group>"; };
 		BEDBD7A42AADD5E60069AE00 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		BEFE5B712AAE60650099EEC5 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		BEFE5B732AAEC4F00099EEC5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BEFE5B752AAF1EE90099EEC5 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = SOURCE_ROOT; };
+		BEFE5B772AAF25CC0099EEC5 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 		BEDBD7772AACB7D00069AE00 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				BEFE5B752AAF1EE90099EEC5 /* Pie.swift */,
 				BEDBD7782AACB7D00069AE00 /* MemorizeApp.swift */,
 				BEDBD77A2AACB7D00069AE00 /* EmojiMemoryGameView.swift */,
+				BEFE5B732AAEC4F00099EEC5 /* CardView.swift */,
+				BEFE5B772AAF25CC0099EEC5 /* Cardify.swift */,
 				BEFE5B712AAE60650099EEC5 /* AspectVGrid.swift */,
 				BEDBD7A22AADCB790069AE00 /* MemorizeGame.swift */,
 				BEDBD7A42AADD5E60069AE00 /* EmojiMemoryGame.swift */,
@@ -268,8 +277,11 @@
 			files = (
 				BEDBD77B2AACB7D00069AE00 /* EmojiMemoryGameView.swift in Sources */,
 				BEDBD7792AACB7D00069AE00 /* MemorizeApp.swift in Sources */,
+				BEFE5B782AAF25CC0099EEC5 /* Cardify.swift in Sources */,
 				BEDBD7A32AADCB790069AE00 /* MemorizeGame.swift in Sources */,
 				BEFE5B722AAE60650099EEC5 /* AspectVGrid.swift in Sources */,
+				BEFE5B762AAF1EE90099EEC5 /* Pie.swift in Sources */,
+				BEFE5B742AAEC4F00099EEC5 /* CardView.swift in Sources */,
 				BEDBD7A52AADD5E60069AE00 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
